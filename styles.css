@@ -1,0 +1,76 @@
+html {
+    background-color: black;
+}
+
+.dibujo {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: red;
+    padding: 0%;
+    height: 80px;
+    flex-wrap: wrap;
+    width: auto;
+
+}
+
+.buscador {
+    margin-left: 900px;
+    width: 200px;
+    margin-bottom:100px;
+}
+
+#result {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+    width: auto;
+       
+  }
+
+  .tipo {
+    width: 300px;
+    
+    
+
+  }
+
+  .monesitem {
+    margin-top: 20px;
+    border: 10px solid yellowgreen;
+    align-items: flex-end;
+    flex-flow: wrap;
+    border-radius: 10%; 
+    background-color: red;
+    flex-wrap: wrap;
+}
+
+.mamada {
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10%;
+    background-color: yellow;
+}
+
+.poder {
+    
+    margin-left: 50px;
+}
+
+.nombre {
+    font-size: 30px;
+    margin: 0px auto;
+    padding: 5px;
+}
+

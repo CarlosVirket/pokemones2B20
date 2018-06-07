@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="pokemon.json"></script>
+        <script type="text/javascript" src="pokedex.js"></script>
+    </head>
+    <body onload="showPokemon()">
+        <div class="navbar">
+            <img class="dibujo" src="logo.png" alt="">
+            <input class="buscador" type="text" id="query" onkeyup="searchPokemon()" placeholder="Busca tu Pokemon">
+        </div>
+        <div class="container" id="result"></div>
+        
+    </body>
+</html>
